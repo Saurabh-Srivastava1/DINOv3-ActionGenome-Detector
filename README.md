@@ -26,7 +26,7 @@ This repository can be used for:
 ## Directory layout
 
 ```text
-detector/
+DINOv3-ActionGenome-Detector/
 ├── ag_dataset.py                # Action Genome dataset loader
 ├── detector_eval.py             # mAP evaluation helpers
 ├── dinov3_fasterrcnn.py         # DINOv3 + FPN + Faster R-CNN model builder
