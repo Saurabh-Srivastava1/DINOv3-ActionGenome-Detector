@@ -128,7 +128,7 @@ This detector itself uses the standard Action Genome annotation files from `anno
 
 Pretrained checkpoint download:
 
-- Google Drive: `ADD_YOUR_CHECKPOINT_LINK_HERE`
+- Google Drive: `CHECKPOINT WILL BE ADDED SOON`
 
 ## Notes
 
