@@ -1,6 +1,23 @@
 # Action Genome DINOv3 Detector
 
-Standalone detector package for training and evaluating an Action Genome object detector built with a DINOv3 backbone and Torchvision Faster R-CNN heads.
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red)
+![CUDA](https://img.shields.io/badge/CUDA-12.4-green)
+![License](https://img.shields.io/badge/license-MIT-yellow)
+
+A research-oriented Faster R-CNN style object detector built with DINOv3 visual backbones for the Action Genome dataset.
+
+This repository is designed for downstream Scene Graph Generation (SGG), Spatio-Temporal Scene Graph Generation (STSGG), Scene Graph Anticipation (SGA) and video scene understanding pipelines. It provides training, evaluation, feature extraction, and distributed training utilities for building high-quality object detectors on Action Genome.
+
+## Use Cases
+
+This repository can be used for:
+
+- Scene Graph Generation (SGG)
+- Spatio-Temporal Scene Graph Generation (STSGG)
+- Scene Graph Anticipation (SGA)
+- Object feature extraction
+- Video understanding research
 
 ## Training pipeline
 
