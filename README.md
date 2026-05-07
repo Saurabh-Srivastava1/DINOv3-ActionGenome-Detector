@@ -131,6 +131,4 @@ Pretrained checkpoint download:
 - Google Drive: `CHECKPOINT WILL BE ADDED SOON`
 
 ## Notes
-
-- `checkpoints/` is ignored by Git except for `.gitkeep`.
 - The default training output directory is `detector/checkpoints/`.
