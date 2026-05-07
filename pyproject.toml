@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "action-genome-detector"
+version = "0.1.0"
+description = "Standalone DINOv3 Faster R-CNN detector for the Action Genome dataset."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "Pillow",
+    "torch",
+    "torchvision",
+    "transformers",
+    "huggingface_hub",
+    "tqdm",
+    "wandb",
+]
+
+[tool.setuptools]
+py-modules = [
+    "ag_dataset",
+    "detector_eval",
+    "dinov3_fasterrcnn",
+    "train",
+]

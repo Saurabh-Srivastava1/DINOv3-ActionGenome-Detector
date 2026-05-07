@@ -1,0 +1,40 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="420" fill="#F6F7F9"/>
+  <rect x="40" y="52" width="220" height="120" rx="20" fill="#0F172A"/>
+  <text x="150" y="94" text-anchor="middle" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">Action Genome</text>
+  <text x="150" y="126" text-anchor="middle" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="18">videos + annotations</text>
+  <text x="150" y="152" text-anchor="middle" fill="#CBD5E1" font-family="Helvetica, Arial, sans-serif" font-size="18">frames / boxes / labels</text>
+
+  <rect x="310" y="52" width="220" height="120" rx="20" fill="#14532D"/>
+  <text x="420" y="94" text-anchor="middle" fill="#F0FDF4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">Dataset Loader</text>
+  <text x="420" y="126" text-anchor="middle" fill="#DCFCE7" font-family="Helvetica, Arial, sans-serif" font-size="18">ag_dataset.py</text>
+  <text x="420" y="152" text-anchor="middle" fill="#DCFCE7" font-family="Helvetica, Arial, sans-serif" font-size="18">Torchvision samples</text>
+
+  <rect x="580" y="52" width="220" height="120" rx="20" fill="#1D4ED8"/>
+  <text x="690" y="94" text-anchor="middle" fill="#EFF6FF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">DINOv3 Backbone</text>
+  <text x="690" y="126" text-anchor="middle" fill="#DBEAFE" font-family="Helvetica, Arial, sans-serif" font-size="18">Simple FPN</text>
+  <text x="690" y="152" text-anchor="middle" fill="#DBEAFE" font-family="Helvetica, Arial, sans-serif" font-size="18">Region proposals</text>
+
+  <rect x="850" y="52" width="220" height="120" rx="20" fill="#7C2D12"/>
+  <text x="960" y="94" text-anchor="middle" fill="#FFF7ED" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">Faster R-CNN</text>
+  <text x="960" y="126" text-anchor="middle" fill="#FFEDD5" font-family="Helvetica, Arial, sans-serif" font-size="18">classification + box regression</text>
+  <text x="960" y="152" text-anchor="middle" fill="#FFEDD5" font-family="Helvetica, Arial, sans-serif" font-size="18">Torchvision detector head</text>
+
+  <rect x="520" y="248" width="240" height="124" rx="20" fill="#581C87"/>
+  <text x="640" y="290" text-anchor="middle" fill="#FAF5FF" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">Training Loop</text>
+  <text x="640" y="322" text-anchor="middle" fill="#F3E8FF" font-family="Helvetica, Arial, sans-serif" font-size="18">AMP / DDP / cosine LR</text>
+  <text x="640" y="348" text-anchor="middle" fill="#F3E8FF" font-family="Helvetica, Arial, sans-serif" font-size="18">checkpointing + evaluation</text>
+
+  <path d="M260 112H310" stroke="#475569" stroke-width="6" stroke-linecap="round"/>
+  <path d="M530 112H580" stroke="#475569" stroke-width="6" stroke-linecap="round"/>
+  <path d="M800 112H850" stroke="#475569" stroke-width="6" stroke-linecap="round"/>
+  <path d="M960 172V206C960 230 940 248 916 248H760" stroke="#475569" stroke-width="6" stroke-linecap="round"/>
+  <path d="M640 172V248" stroke="#475569" stroke-width="6" stroke-linecap="round"/>
+
+  <polygon points="304,104 320,112 304,120" fill="#475569"/>
+  <polygon points="574,104 590,112 574,120" fill="#475569"/>
+  <polygon points="844,104 860,112 844,120" fill="#475569"/>
+  <polygon points="632,242 640,258 648,242" fill="#475569"/>
+
+  <text x="640" y="26" text-anchor="middle" fill="#0F172A" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Training Pipeline</text>
+</svg>

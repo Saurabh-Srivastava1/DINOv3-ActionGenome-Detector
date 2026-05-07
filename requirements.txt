@@ -1,0 +1,9 @@
+# Install torch and torchvision using the wheel that matches your CUDA or CPU setup.
+numpy
+Pillow
+torch
+torchvision
+transformers
+huggingface_hub
+tqdm
+wandb
