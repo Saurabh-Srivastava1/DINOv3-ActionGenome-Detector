@@ -52,13 +52,6 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 ```
 
-Or install the directory as a package:
-
-```bash
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
-pip install -e .
-```
-
 ## Training
 
 Single-GPU training:
@@ -73,18 +66,10 @@ python train.py \
   --use_amp
 ```
 
-Package-style launch:
-
-```bash
-python -m detector.train \
-  --data_path /path/to/action_genome \
-  --output_dir ./checkpoints
-```
-
 Multi-GPU training with PyTorch DDP:
 
 ```bash
-torchrun --nproc_per_node=4 -m detector.train \
+torchrun --nproc_per_node=4 train.py \
   --data_path /path/to/action_genome \
   --output_dir ./checkpoints \
   --distributed
@@ -93,7 +78,7 @@ torchrun --nproc_per_node=4 -m detector.train \
 Resume from a checkpoint:
 
 ```bash
-python -m detector.train \
+python train.py \
   --data_path /path/to/action_genome \
   --output_dir ./checkpoints \
   --resume ./checkpoints/checkpoint_epoch_012.pth
@@ -148,4 +133,4 @@ Pretrained checkpoint download:
 - Google Drive: `CHECKPOINT WILL BE ADDED SOON`
 
 ## Notes
-- The default training output directory is `detector/checkpoints/`.
+- The default training output directory is `./checkpoints/`.
